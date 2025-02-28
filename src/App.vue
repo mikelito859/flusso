@@ -2,11 +2,9 @@
     <div id="app" class="bg-white h-screen">
         <Layout>
             <HeroSection/>
-            <Products/>
-            <ShowContent/>
-            <Steps/>
-            <Advantages/>
-            <Register/>
+            <NewProduct/>
+            <NewReview/>
+            <NewWhy/>
         </Layout>
     </div>
 </template>
@@ -30,7 +28,9 @@
 <script>
 import Layout from "./components/Layout.vue";
 import HeroSection from "./HeroSection.vue";
-import Products from "./Products.vue";
+import NewProduct from "./NewProduct.vue";
+import NewReview from "./NewReview.vue";
+import NewWhy from "./NewWhy.vue";
 import Steps from "./Steps.vue";
 import Register from "./Register.vue";
 import Advantages from "./Advantages.vue";
@@ -40,7 +40,7 @@ export default {
     name: "App",
     components: {
         ShowContent,
-        Layout, Advantages, Steps, HeroSection, Register, Products
+        Layout, Advantages, Steps, HeroSection, Register, NewProduct, NewReview, NewWhy
     },
     methods: {
         goTo(id) {

@@ -67,15 +67,23 @@ export default {
                 title: 'Compra',
                 id: 'flusso-benefits'
             },{
-                title: 'Vende',
-                id: 'flusso-benefits'
-            },  {
-                title: 'Acerca de ',
-                id: 'top'
+                title: '¿Como comprar?',
+                id: 'crypto-purchase-steps'
+            },{
+                title: '¿Porque Flusso?',
+                id: 'flusso-why'
 
-            }, {
+            },{
+                title: 'Ventajas',
+                id: 'advantages'
+
+            },{
+                title: 'Transacciones OTC',
+                id: 'otc'
+
+            },{
                 title: 'Contacto',
-                id: 'top'
+                id: 'contact'
 
             }, ]
         }

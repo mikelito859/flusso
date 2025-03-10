@@ -2,9 +2,14 @@
     <div id="app" class="bg-white h-screen">
         <Layout>
             <HeroSection/>
+            <ShowContent/>
+            <Steps/>
             <NewProduct/>
-            <NewReview/>
             <NewWhy/>
+            <Advantages/>
+            <OtcSection/>
+            <Register/>
+            <NewReview/>
         </Layout>
     </div>
 </template>
@@ -34,12 +39,13 @@ import NewWhy from "./NewWhy.vue";
 import Steps from "./Steps.vue";
 import Register from "./Register.vue";
 import Advantages from "./Advantages.vue";
+import OtcSection from "./OtcSection.vue";
 import ShowContent from "./ShowContent.vue";
 
 export default {
     name: "App",
     components: {
-        ShowContent,
+        ShowContent,OtcSection,
         Layout, Advantages, Steps, HeroSection, Register, NewProduct, NewReview, NewWhy
     },
     methods: {

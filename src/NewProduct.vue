@@ -1,5 +1,5 @@
 <template>
-    <div id="flusso-product" class="hero bg-cover bg-[url('/FONDO.png')]">
+    <div id="flusso-product" class="hero py-[8rem] bg-cover bg-[url('/FONDO.png')]">
         <div class="hero-content text-left text-neutral-content flex-col lg:flex-row">
             <div class="md:grid md:grid-cols-[60%_40%]">
                 <div class="max-w-[35rem] py-10 text-white">

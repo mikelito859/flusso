@@ -1,19 +1,18 @@
 <template>
     <div
         id="advantages"
-        class="py-10 px-2">
-        <TextH2
-            text="¿Por qué elegir Flusso para la compra de criptomonedas?"/>
+        class="py-[8rem] px-2 bg-cover bg-[url('/FONDO.png')]">
+        <h2 class=" text-white text-left text-6xl font-bold text-center py-20 px-3 max-w-5xl mx-auto" style="font-style: italic;">¿Ventajas de elegir <span class="text-aqua">Flusso</span> para la compra de criptomonedas?</h2>
         <div class="flex flex-wrap justify-center items-center">
             <div class="max-w-4xl container mx-auto">
                 <div
                     v-for="advantage in advantages"
                     tabindex="0" class="collapse group text-xl mb-2">
-                    <div class="collapse-title bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
+                    <div class="collapse-title bg-aqua text-primary-content group-focus:bg-aqua group-focus:backdrop-blur-md">
                         {{advantage.title}}
                     </div>
-                    <div class="collapse-content bg-primary text-primary-content group-focus:bg-secondary group-focus:text-secondary-content">
-                        <p>
+                    <div class="collapse-content bg-primary text-primary-content group-focus:bg-white group-focus:text-secondary-content">
+                        <p class="m-5">
                             {{advantage.text}}
                         </p>
                     </div>

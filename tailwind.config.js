@@ -25,8 +25,8 @@ export default {
     theme: {
         extend: {
             colors: {
-                // primary: '#004ace', // Cambia este valor al color que desees
-            },
+                'aqua': '#3C84F0', // Define tu color aqua aquí
+              },
         },
     },
 }

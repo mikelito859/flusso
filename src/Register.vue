@@ -1,17 +1,16 @@
 <template>
     <div
             id="contact"
-            class="hero md:min-h-screen bg-base-200 bg-[url('/1.webp')]" >
-        <div class="hero-overlay bg-opacity-80"></div>
+            class="hero py-[10rem] bg-cover bg-[url('/FONDO.png')]" >
         <div class="hero-content flex-col lg:flex-row max-w-5xl">
             <div class="text-center lg:text-left lg:mr-10">
-                <h2 class="text-5xl font-bold text-white">Contáctanos ahora</h2>
+                <h2 class="text-5xl font-bold text-white" style="font-style: italic;">Contáctanos ahora</h2>
                 <p class="py-6 text-base-100">
                     Haz realidad tu inversión en criptomonedas con Flusso. Contáctanos y descubre cómo nuestro servicio fácil y seguro de compra de criptomonedas puede ayudarte a comenzar tu viaje en el mundo cripto y aprovechar al máximo tus oportunidades financieras.                </p>
                 <div class="form-control mt-6">
                     <button
                             @click="$root.openWhatsapp"
-                            class="btn btn-primary">
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4">
                         Abrir Whatsapp
                     </button>
                 </div>
@@ -69,7 +68,7 @@
                                     :disabled="sending"
                                     :loading="sending"
                                     type="submit"
-                                    class="btn btn-primary">
+                                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4">
                                 Contactarnos
                             </button>
                         </div>

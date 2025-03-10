@@ -1,12 +1,17 @@
 <template>
-    <div class="hero bg-cover bg-[url('/FONDO.png')]" id="top">
+    <div class="hero py-[8rem] bg-cover bg-[url('/FONDO.png')]" id="top">
         <div class="hero-content text-left text-neutral-content flex-col lg:flex-row">
             <div class="md:grid md:grid-cols-[65%_35%]">
                 <div class="max-w-[35rem] py-20 text-white">
                     <h1 class="mt-5 pt-5 text-7xl font-bold " style="font-style: italic;">
                     Compra y Vende <span class="text-aqua">Criptos</span> en solo minutos
                     </h1>
-                    <img class="mx-auto max-w-[20rem]" src="/BITCOIN.png">
+                    <div class="flex items-center text-left"> <p class="mt-14 text-xl mb-5 text-xl mr-4">
+                        Con Flusso, adquiere criptomonedas usando fiat, tarjetas o transferencias
+                        bancarias. Únete a la revolución digital de forma sencilla y segura.
+                    </p>
+                    <img class="max-w-[9rem]" src="/BITCOIN.png">
+                </div>
                 </div>
                 <div class="max-w-[30rem] py-20 text-white">
                     <iframe sandbox="allow-same-origin allow-forms allow-top-navigation allow-scripts allow-popups"
@@ -28,7 +33,3 @@ export default {
     components: {ActionButton}
 }
 </script>
-
-186340
-
-185932

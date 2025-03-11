@@ -13,7 +13,7 @@
                     <img class="max-w-[9rem]" src="/BITCOIN.png">
                 </div>
                 </div>
-                <div class="max-w-[30rem] py-20 text-white">
+                <div class="max-w-[35rem] py-20 text-white">
                     <iframe sandbox="allow-same-origin allow-forms allow-top-navigation allow-scripts allow-popups"
                     title="Compra y vende criptoactivos con Flusso" scrolling="no"
                     src="https://atc.flussogroup.com/widget/pay?symbol=usdt&amp;amount=100&amp;lang=es"

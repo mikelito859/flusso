@@ -75,14 +75,14 @@
                         </div>
                     </div>
                     <div class="text-white flex flex-col items-end">
-                        <div class="flex items-center mb-2">
+                        <div class="flex items-center mb-2 invisible">
                             <img src="/FACEBOOK.png" alt="Facebook" class="w-8 mx-0">
                             <img src="/INSTAGRAM.png" alt="Instagram" class="w-8 mx-1">
                             <img src="/YOUTUBE.png" alt="YouTube" class="w-8 mx-0">
                         </div>
                         <div class="flex">
-                            <a href="#" class="text-lg mx-2">Términos y Condiciones</a>
-                            <a href="#" class="text-lg mx-2">Licencia de Operaciones</a>
+                            <a href="/Terms-and-Conditions.pdf" target="_blank" class="text-lg mx-2">Términos y Condiciones</a>
+                            <a href="/VASP_license_24_05_Zasw_RDWW_FLUSSO_DYNAMICS_GROUP 4.pdf" target="_blank" class="text-lg mx-2">Licencia de Operaciones</a>
                         </div>
                     </div>
                 </div>
@@ -97,25 +97,25 @@ export default {
     return {
       reviews: [
         {
-          name: "Adam Woods",
-          username: "@adamwoods",
-          time: "12 min ago",
+          name: "Laura Rodríguez",
+          username: "@lauracrypto",
+          time: "hace 12 min",
           stars: "★★★★★",
-          text: "A true crowd-pleaser! The cookie dough ice cream is a delightful combination of creamy vanilla.",
+          text: "Desde que descubrí esta plataforma, comprar y vender criptomonedas es pan comido. La interfaz es súper intuitiva y el equipo de soporte siempre está ahí para resolver mis dudas. ¡Recomendadísima!",
         },
         {
-          name: "Jane Doe",
-          username: "@janedoe",
-          time: "30 min ago",
+          name: "Ana Martínez",
+          username: "@anamartinezdigital",
+          time: "hace 3 dias",
           stars: "★★★★☆",
-          text: "This product is amazing! I love how easy it is to use and the results are fantastic.",
+          text: "Soy nueva en el mundo de las criptomonedas y esta plataforma me ha facilitado mucho el aprendizaje. Los tutoriales son claros y el proceso de compra y venta es muy sencillo. ¡Estoy muy contenta!",
         },
         {
-          name: "John Smith",
-          username: "@johnsmith",
-          time: "1 hour ago",
+          name: "Sofía López",
+          username: "@sofialopezfinanzas",
+          time: "hace 1 sem",
           stars: "★★★★★",
-          text: "I highly recommend this! It exceeded my expectations and I'm very happy with my purchase.",
+          text: "El servicio de atención al cliente es excepcional. Siempre responden rápido y resuelven cualquier problema. La plataforma es fácil de usar y las tarifas son justas. ¡La recomiendo al 100%!",
         },
         // Puedes agregar más reseñas aquí
       ],

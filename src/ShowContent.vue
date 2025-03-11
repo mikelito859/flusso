@@ -5,7 +5,7 @@
             <div class="card lg:card-side bg-neutral-focus shadow-xl text-white backdrop-blur-md bg-white/5">
                 <figure class="min-w-[40%]">
                     <img class="min-h-16"
-                        src="/old-man-who-buyed-crypto.webp"
+                        src="/buycripto.png"
                     alt="Compra de criptomonedas"
                     />
                 </figure>

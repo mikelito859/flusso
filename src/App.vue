@@ -54,9 +54,9 @@ export default {
             el.scrollIntoView({behavior: "smooth"});
         },
         openWhatsapp() {
-            let text = "Hola Eco Home, me gustaría recibir más información de:";
+            let text = "¡Bienvenido a Flusso! 🚀 Estamos aquí para ayudarte con tus transacciones. Escríbenos y nuestro equipo te asistirá de inmediato.";
             text = encodeURI(text + " ");
-            let phone = '3400000000'
+            let phone = '34656752765'
             let url = "https://api.whatsapp.com/send";
             url += "?phone=" + phone + "&text=" + text;
             let link = document.createElement('a');

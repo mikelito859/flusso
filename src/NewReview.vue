@@ -59,9 +59,9 @@
                 <div class="md:grid md:grid-cols-[37%_25%_37%] pt-5">
                     <div></div>
                     <div class="bg-white rounded-lg p-2 flex justify-center items-center">
-                        <img src="/LOGO 1.png" alt="Imagen 1" class="h-10 mx-2">
-                        <img src="/LOGO 2.png" alt="Imagen 2" class="h-10 mx-2">
-                        <img src="/LOGO 3.png" alt="Imagen 3" class="h-10 mx-2">
+                        <img src="/LOGO1.png" alt="Imagen 1" class="h-10 mx-2">
+                        <img src="/LOGO2.png" alt="Imagen 2" class="h-10 mx-2">
+                        <img src="/LOGO3.png" alt="Imagen 3" class="h-10 mx-2">
                     </div>
                     <div></div>
                 </div>

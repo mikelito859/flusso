@@ -10,7 +10,7 @@
                     <div class="relative w-[100%] h-[600px]">
                         <img class="absolute top-0 left-0 w-full h-full z-0 mx-auto" src="/MANO.png">
                         <img class="absolute top-[6rem] right-[2rem] w-[25%] z-10" src="/TETHER.png">
-                        <img class="absolute top-[11rem] right-[-1.5rem] w-[30%] z-20" src="/BNB.png">
+                        <img class="absolute top-[11rem] right-[-0.5rem] w-[30%] z-20" src="/BNB.png">
                     </div>
                 </div>
                 <div class="max-w-[35rem] py-20 text-white">

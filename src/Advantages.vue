@@ -1,8 +1,11 @@
 <template>
     <div id="advantages" class="py-[8rem] px-2 bg-cover bg-[url('/FONDO.png')]">
-        <h2 class="text-white text-left text-6xl font-bold text-center py-20 px-3 max-w-5xl mx-auto" style="font-style: italic;">
-            ¿Ventajas de elegir <span class="text-aqua">Flusso</span> para la compra de criptomonedas?
-        </h2>
+        <h2 class="text-white mt-5 text-left pt-5 font-bold text-center px-3 mx-auto" :class="{
+            'text-5xl md:text-6xl': true,
+            'py-10 md:py-20': true,
+            'mt-10 md:mt-20': true,
+            'max-w-xl md:max-w-3xl': true
+        }" style="font-style: italic;">¿Ventajas de elegir <span class="text-aqua">Flusso</span> para la compra de criptomonedas?</h2>
         <div class="flex flex-wrap justify-center items-center sm:py-10">
             <div class="max-w-4xl container mx-auto sm:px-4"> <div v-for="advantage in advantages" tabindex="0" class="collapse group text-xl mb-2">
                     <div class="collapse-title bg-aqua text-primary-content group-focus:bg-aqua group-focus:backdrop-blur-md">

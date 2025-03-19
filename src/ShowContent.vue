@@ -1,7 +1,13 @@
 <template>
     <div id="flusso-benefits" class="py-[8rem] hero bg-cover bg-[url('/FONDO.png')]">
         <div id="crypto" class="container mx-auto max-w-6xl px-1 py-20">
-            <h2 class=" text-white mt-5 text-left pt-5 text-6xl font-bold text-center py-20 mt-20 px-3 max-w-3xl mx-auto" style="font-style: italic;">Compra Criptomonedas de Forma <span class="text-aqua">Fácil y Segura</span></h2>
+            <h2 class="text-white mt-5 text-left pt-5 font-bold text-center px-3 mx-auto" :class="{
+                    'text-5xl md:text-6xl': true,
+                    'py-10 md:py-20': true,
+                    'mt-10 md:mt-20': true,
+                    'max-w-xl md:max-w-3xl': true
+                }" style="font-style: italic;">Compra Criptomonedas de Forma <span class="text-aqua">Fácil y Segura</span></h2>
+
             <div class="card lg:card-side bg-neutral-focus shadow-xl text-white backdrop-blur-md bg-white/5">
                 <figure class="min-w-[40%]">
                     <img class="min-h-16"
